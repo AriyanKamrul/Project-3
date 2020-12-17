@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.main{
+    background-color: khaki;
+    width: 900px;
+    margin: auto;
+}
+
+.header{
+    width: 900px;
+    height: 75px;
+    background-color: steelblue;
+    margin: auto;
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 130px;
+    padding: 20px;
+}
+
+ul li a{
+    color: yellow;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #cc3f85;
+    color: white;
+    padding: 22px;
+}
+
+.content{
+    width: 900px;
+    margin: auto;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    background-color:grey;
+   font-size: 25px;
+}
+
+.map{
+    width: 65%;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+.input{
+    margin-left: 140px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.name{
+    width: 80%;
+    border: 1px solid #cc3f85;
+    padding: 12px;
+    border-radius: 4px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.email{
+    width: 80%;
+    border: 1px solid #cc3f85;
+    padding: 12px;
+    border-radius: 4px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.phone{
+    width: 80%;
+    border: 1px solid #cc3f85;
+    padding: 12px;
+    border-radius: 4px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 80%;
+    border: 1px solid #cc3f85;
+    padding: 12px;
+    border-radius: 4px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.btn{
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 4px;
+    border: none;
+    width: 80px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
